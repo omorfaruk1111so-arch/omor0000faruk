@@ -12,7 +12,7 @@ from telebot.types import ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMar
 										
 # Bot Configuration (Updated)										
 TOKEN = '8604465538:AAGIO9hgU0pgcVaSxywmdILVFER6X1ZxH-Q'										
-CHANNEL_USERNAME = https://t.me/newbulkaccountsell										
+CHANNEL_USERNAME = '@taandob7'										
 ADMIN_ID = 7444321226  # নতুন এডমিন আইডি										
 bot = telebot.TeleBot(TOKEN)										
 										
@@ -411,4 +411,5 @@ bot_username = bot.get_me().username
 										
 "@bot.message_handler(func=lambda m: m.text == ""💳 Withdraw"")"										
 def withdraw(message):										
-user_id = message.from_user.id
+user_id = message.from_user.id										
+if user_i
